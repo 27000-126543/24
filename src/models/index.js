@@ -1,0 +1,21 @@
+module.exports = {
+  User: require('./User'),
+  WaterPlant: require('./WaterPlant'),
+  PumpStation: require('./PumpStation'),
+  PipeSegment: require('./PipeSegment'),
+  Sensor: require('./Sensor'),
+  WaterPlantData: require('./WaterPlantData'),
+  PumpStationData: require('./PumpStationData'),
+  SensorData: require('./SensorData'),
+  AdjustmentLog: require('./AdjustmentLog'),
+  LeakPoint: require('./LeakPoint'),
+  WorkOrder: require('./WorkOrder'),
+  RepairTask: require('./RepairTask'),
+  RepairRecord: require('./RepairRecord'),
+  WaterUsage: require('./WaterUsage'),
+  Complaint: require('./Complaint'),
+  Bill: require('./Bill'),
+  RestrictionOrder: require('./RestrictionOrder'),
+  EfficiencyReport: require('./EfficiencyReport'),
+  Notification: require('./Notification')
+};
