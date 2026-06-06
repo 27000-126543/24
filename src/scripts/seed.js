@@ -264,6 +264,19 @@ const seedData = async () => {
 
     const sensors = await models.Sensor.create([
       {
+        code: 'PRES-001',
+        type: 'pressure',
+        name: 'PRES-001 主管压力传感器',
+        pipeSegmentId: pipeSegments[0]._id,
+        waterPlantId: waterPlants[0]._id,
+        location: { lat: 30.2741, lng: 120.1551 },
+        zone: '西湖区',
+        normalMin: 0.14,
+        normalMax: 0.40,
+        lastValue: 0.28,
+        status: 'active'
+      },
+      {
         code: 'PRS001',
         type: 'pressure',
         name: '文三路起点压力传感器',
